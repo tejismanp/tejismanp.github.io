@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Tejisman Parida</title>
-  
+  <script src="https://use.typekit.net/vdk3aep.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'>
-<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto+Condensed:100'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
 
@@ -16,35 +15,149 @@
 </head>
 
 <body>
-<div class="split-slideshow">
-  <div class="slideshow">
-    <div class="slider">
-      <div class="item">
-        <img src="https://images.pexels.com/photos/200231/pexels-photo-200231.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" />
-      </div>
-      <div class="item">
-        <img src="https://images.pexels.com/photos/299109/pexels-photo-299109.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" />
-      </div>
-      <div class="item">
-        <img src="https://images.pexels.com/photos/345753/pexels-photo-345753.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" />
-      </div>
-      <div class="item">
-        <img src="https://images.pexels.com/photos/299109/pexels-photo-299109.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" />
-      </div>
-    </div>
-  </div>
-  <div class="slideshow-text">
-    <div class="item">I'm Tejisman Parida</div>
-    <div class="item">Desert</div>
-    <div class="item">Erosion</div>
-    <div class="item">Shape</div>
-  </div>
+  <div class="outer">
+	<i class="fa fa-arrow-circle-up" id="arrow" aria-hidden="true"></i>
+	<div class="inner">
+
+
+		<header>
+			<div class="container-fluid clearfix">
+				<div class="row">
+					<i class="fa fa-bars nav-toggle" aria-hidden="true"></i>
+					<nav role="navigation">
+						<i class="fa fa-times nav-toggle" aria-hidden="true"></i>
+						<ul class="list-unstyled" id="nav">
+							<li>
+								<a class="nav-link" href="#intro"><span>About</span></a>
+								<div class="underline"></div>
+							</li>
+							<li>
+								<a class="nav-link" href="#skills"><span>Skills</span></a>
+								<div class="underline"></div>
+							</li>
+							<li>
+								<a class="nav-link" href="#portfolio"><span>Portfolio</span></a>
+								<div class="underline"></div>
+							</li>
+							<li>
+								<a class="nav-link" href="#contacts"><span>Contacts</span></a>
+								<div class="underline"></div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<h1 class="titanic naked">Hey Folks.</h1>
+			</div>
+		</header>
+
+		<!--
+		INTRODUCTION
+		SECTION
+-->
+
+		<main id="main">
+			<div class="container">
+				<div class="row">
+					<div id="intro"> Hi </br>
+						My name is Tejisman Parida. I'm currently pursuing my Computer Engineering degree.
+					</div>
+				</div>
+			</div>
+		</main>
+		<section class="skills-sec">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1">
+						<h2>Skills</h2>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2">
+						<div id="skills">
+							<img class="img-responsive skill toR" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/2000px-Python.svg.png" alt="python icon" />
+							<img class="img-responsive skill" src="https://cdn2.iconfinder.com/data/icons/metro-ui-dock/512/Java.png" alt="java icon" />
+							<img class="img-responsive skill toL" src="https://cdn2.iconfinder.com/data/icons/files-coding/24/files-coding-c-plus-plus-512.png" alt="c++ icon" />
+							<img src="https://cdn1.iconfinder.com/data/icons/ios-7-style-metro-ui-icons/512/MetroUI_OS_Android.png" alt="android icon" class="img-responsive skill toR" />
+							<img src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" alt="html icon" class="img-responsive skill" />
+							<img src="https://www.dropbox.com/s/3qcvkhy12pmmyy9/gitpng.png?dl=1" alt="git icon" class="img-responsive skill toL" />
+							<img src="http://icons.iconarchive.com/icons/alecive/flatwoken/512/Apps-Qt-icon.png" alt="QT icon" class="img-responsive skill toR" />		
+							<img src="http://www.myiconfinder.com/uploads/iconsets/e42f329d0832c5a8369e6006056ad82f.png" alt="mysql icon" class="img-responsive skill toR" />
+							<img src="https://www.freebsdnews.com/wp-content/uploads/mongodb.png
+" alt="mongodb icon" class="img-responsive skill toR" />
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--
+		PORTFOLIO
+    SECTION
+-->
+
+		<section class="portfolio-sec">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1">
+						<h2>Portfolio</h2>
+					</div>
+					<div class="col-xs-12">
+						<div id="portfolio">
+							<div class="project">
+								<a href="https://github.com/tejismanp/HackaApp" target="_blank"><img src="images/farmer1.png"alt="weather_app" class="img-responsive" /></a>
+							</div>
+							<div class="project">
+								<a href="https://github.com/tejismanp/mtyTechzooka_4-parking-management" target="_blank"><img src="images/parking1.png" alt="pomodoto_timer" class="img-responsive" /></a>
+							</div>
+							<div class="project">
+								<a href="https://github.com/tejismanp/Calculator-Android-" target="_blank"><img src="images/calculator1.png" alt="calculator" class="img-responsive" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+	<!--
+		FOOTER
+    SECTION
+-->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1">
+					<h2>Get in Touch</h2>
+				</div>
+				<div class="col-xs-12">
+					<div id="contacts">
+						<div class="row">
+							<div class="col-lg-3 col-sm-6">
+								<a class="contact-link awesome" href="https://gmail.com">mail</a>
+							</div>
+							<div class="col-lg-3 col-sm-6">
+								<a class="contact-link awesome" href="https://linkedin.com">linkedIn</a>
+							</div>
+							<div class="col-lg-3 col-sm-6">
+								<a class="contact-link awesome" href="https://fb.com">facebook</a>
+							</div>
+							<div class="col-lg-3 col-sm-6">
+						
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
 </div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
+<script src='js/rfhjs.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js'></script>
 
     <script src="js/index.js"></script>
 
 </body>
 </html>
+
