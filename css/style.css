@@ -144,7 +144,7 @@ main {
   width: 100%;
   text-align: left;
   word-break: break-word;
-  font-size: 7vw;
+  font-size: 6vw;
   font-family: "ff-nuvo-sc-web-pro",sans-serif;
   font-weight: bold;
   color: #333;
@@ -178,9 +178,9 @@ h2 {
 }
 
 .skill {
-  width: 32%;
-  height: 19vw;
-  padding: 15px;
+  width: 30%;
+  height: 17vw;
+  padding: 20px;
   opacity: 0;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
@@ -224,7 +224,7 @@ h2 {
 
 .project {
   width: 32%;
-  padding: 5px;
+  padding: 10px;
   opacity: 0;
   text-align: center;
   -webkit-transform: translateX(-25px);
